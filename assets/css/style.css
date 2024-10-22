@@ -7,7 +7,7 @@
     --bolder-font: 900;
     --bg-color: #0f023fe6;
     --primary-color: #fdf5f5;
-    --secondary-color: #e643c8;
+    --secondary-color: #a175e7b3;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -45,7 +45,7 @@ body {
 }
 
 nav {
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     left: 0;
     z-index: 1;
