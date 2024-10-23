@@ -120,20 +120,31 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
-.more-about {
+.experience {
        padding: 1rem 6rem;
+       align-items: center;
 }
 
-.more-about h2 {
+.experience h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
 }
 
-.more-about p {
-    line-height: var(--line-height);
-    padding: 0.4rem;
+.experience-container {
+    margin-left: 20%;
 }
 
+.experience p,ul {
+    line-height: var(--line-height);
+}
+
+.experience li{
+    list-style-type: square;
+}
+
+.experience-old {
+    padding-top: 2rem;
+}
 .rprojects {
     display: flex;
     justify-content: center;
