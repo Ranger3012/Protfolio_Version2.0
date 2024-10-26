@@ -324,11 +324,40 @@ footer {
     }
 
     .burger-menu {
-        display:inline-block;
+        display:block;
     }
 
     nav ul.show {
         transform: translateX(0);
+    }
+
+    .hero {
+        margin-top: -1rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+        height: 37.5rem;
+        width: 30rem;
+    }
+
+    .bio {
+        margin-top: -3rem;
+        width: 20.5rem;
+    }
+
+    .experience {
+        margin-top: 1rem;
+        width: 38rem;
+    }
+
+    .rprojects {
+        margin-top: -1rem;
+    }
+
+    .projects-container {
+        margin-top: -1rem;
     }
     
 }
