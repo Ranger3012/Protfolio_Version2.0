@@ -131,7 +131,7 @@ nav ul li {
 }
 
 .experience-container {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .experience p,ul {
@@ -309,7 +309,7 @@ footer {
         background-color: var(--bg-color);
         flex-direction: column;
         top: 86px;
-        left: 10%;
+        left: 1%;
         width:85%;
         text-align: center;
         transform: translateX(120%);
@@ -350,8 +350,13 @@ footer {
     }
 
     .experience {
+        display: flex;
+        flex-direction: column;
         margin-top: 1rem;
-        width: 38rem;
+        width: 25rem;
+        padding: 1rem 1rem;
+        align-items: center;
+        
     }
 
     .projects-container {
@@ -364,18 +369,89 @@ footer {
     .contact-form-container {
         max-width: 23.75rem;
     }
+    .socials {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 1%;
+        bottom: 50%;
+    }
+    
+    .socicon {        
+        width: 2rem;
+        height: 2rem;
+    }
     
 
 }
 
 @media screen and (max-width: 420px) {
+
+    nav {
+        padding: 1.5rem 1rem;
+        margin: 1%;
+    }
+
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left:1%;
+        width:85%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 05.s ease-in;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+
+    .burger-menu {
+        display:block;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+    }
+
     .hero img {
+        margin-top: -5rem;
         height: 37.5rem;
         width: 23rem;
     }
 
     .bio {
         width: 18.3rem;
+    }
+    .experience-container {
+        margin-left: 0.1rem;
+        margin-right: 1.5rem;
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        width: 25rem;
+        padding: 1rem 1rem;
+        align-items: center;
+   }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -1rem;
+        width: 30rem;
+    }
+
+    .contact-form-container {
+        max-width: 23.75rem;
+    }
+
+    .experience-container {
+        max-width: 17.75rem;
     }
 
     .project-container {
@@ -384,5 +460,17 @@ footer {
 
     .contact-form-container {
         max-width: 17.75rem;
+    }
+    .socials {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 1%;
+        bottom: 50%;
+    }
+    
+    .socicon {
+        width: 2rem;
+        height: 2rem;
     }
 }
