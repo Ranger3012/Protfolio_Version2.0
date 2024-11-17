@@ -306,7 +306,7 @@ footer {
         flex-direction: column;
         top: 86px;
         left: 10%;
-        width:85%;
+        width:75%;
         text-align: center;
         transform: translateX(120%);
         transition: transform 05.s ease-in;
@@ -346,8 +346,9 @@ footer {
     }
 
     .experience {
-        margin-top: 1rem;
-        width: 38rem;
+        margin: 1rem 0.7rem;
+        padding: 1rem 0rem 1rem 3rem;
+        width: 23rem;
     }
 
     .projects-container {
