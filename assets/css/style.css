@@ -120,31 +120,6 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
-.experience {
-       padding: 1rem 6rem;
-       align-items: center;
-}
-
-.experience h2 {
-    margin-bottom: var(--bottom-margin);
-    text-align: center;
-}
-
-.experience-container {
-    margin-left: 30%;
-}
-
-.experience p,ul {
-    line-height: var(--line-height);
-}
-
-.experience li{
-    list-style-type: square;
-}
-
-.experience-old {
-    padding-top: 2rem;
-}
 .rprojects {
     display: flex;
     align-items: center;
@@ -339,16 +314,6 @@ footer {
         width: 20.5rem;
     }
 
-    .experience-container {
-        margin-left: 0.1rem;
-        margin-right: 1.5rem;
-    }
-
-    .experience {
-        margin-top: 1rem;
-        width: 38rem;
-    }
-
     .projects-container {
         display: flex;
         flex-direction: column;
@@ -415,19 +380,6 @@ footer {
     .bio {
         width: 18.3rem;
     }
-    .experience-container {
-        margin-left: 0.1rem;
-        margin-right: 1.5rem;
-    }
-
-    .experience {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1rem;
-        width: 25rem;
-        padding: 1rem 1rem;
-        align-items: center;
-   }
 
     .projects-container {
         display: flex;
