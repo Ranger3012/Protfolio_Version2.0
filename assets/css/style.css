@@ -120,32 +120,6 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
-.experience {
-       padding: 1rem 6rem;
-       align-items: center;
-}
-
-.experience h2 {
-    margin-bottom: var(--bottom-margin);
-    text-align: center;
-}
-
-.experience-container {
-    margin-left: 12rem;
-}
-
-.experience p,ul {
-    line-height: var(--line-height);
-}
-
-.experience li{
-    list-style-type: square;
-}
-
-.experience-old {
-    padding-top: 0.7rem;
-}
-
 .rprojects {
     display: flex;
     align-items: center;
@@ -338,17 +312,6 @@ footer {
     .bio {
         margin-top: -3rem;
         width: 20.5rem;
-    }
-
-    .experience-container {
-        margin-left: 0.1rem;
-        margin-right: 1.5rem;
-    }
-
-    .experience {
-        margin: 1rem 0.7rem;
-        padding: 1rem 0rem 1rem 3rem;
-        width: 23rem;
     }
 
     .projects-container {
